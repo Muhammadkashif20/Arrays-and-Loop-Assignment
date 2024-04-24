@@ -79,12 +79,15 @@ var largestNum = [24, 53, 78, 91, 12];
 document.write(largestNum+'<br>')
 var max = Math.max(...largestNum);
 document.write("The largest number in the array is: " + max);
-//Ques 10:-
+
 document.write('<h2>Smallest Number</h2>')
 var SmallestNum = [24, 53, 78, 91, 12];
 document.write(SmallestNum+'<br>')
 var max = Math.min(...SmallestNum);
 document.write("The Smallest number in the array is: " + max);
 
-
-
+//Ques 10:-
+document.write('<h2>This is Multiplication Table of 5 in Loop</h2>')
+for(var i=5;i<=100;i=i+5){
+    document.write(i+',')
+}
