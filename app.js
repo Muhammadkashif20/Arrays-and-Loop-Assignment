@@ -59,20 +59,20 @@ for(var i=2;i<=20;i=i+2){
     document.write(i+'k'+',')
 }
 // document.write('<h2>Bakery:-</h2>')
-// var Bakery = ['cake, apple pie, cookie, chips, patties']
-// var items=prompt('Welcome to ABC Bakery.What do you want to order sir/mam?')
-// for(var i=0;i<=4;i++){
-//     if(Bakery[i] === items){
-//         document.write(items+' is available at '+' index '+i+'in our Bakery')
-//         break
-//     }
-//     else{
-//         document.write('We are sorry.')
-//         break
-
-//     }
-// }
-
+var items=prompt('Welcome to ABC Bakery.What do you want to order sir/mam?')
+console.log(items);
+var Bakery = ['cake','apple pie','cookie','chips','patties']
+console.log(Bakery);
+for(var i=0;i<Bakery.length;i++){
+if(items === Bakery[i]){
+    alert(items+' is available at index  '+[i] +' in our Bakery')
+    break
+}
+else{
+    alert('We Are Sorry. '+items+' is not availabe in our Bakery')
+    // break
+}
+}
 //Ques 9:-
 document.write('<h2>Largest Number</h2>')
 var largestNum = [24, 53, 78, 91, 12];
